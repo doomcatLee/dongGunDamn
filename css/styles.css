@@ -1,25 +1,34 @@
-html,body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-#particle-canvas {
-  width: 100%;
-  height: 100%;
-}
-
-/*
-section#main{
-  background-color: grey;
-
-}
-
-#main img{
-  width:100%;
-  background-size: 100%;
+.container{
   height: 100vh;
-  margin-right: 80%;
-}*/
+}
+
+#canvas{
+  height: 80vh;
+}
+#canvas h1{
+  font-size: 200px;
+  padding-top: 15%;
+  padding-left:65%;
+}
+#links{
+  margin-left:75%;
+}
+
+#header li{
+  width: 100px;
+}
+
+#header li{
+  display:inline;
+  margin-left: 3%;
+}
+#logo li{
+  margin-right: 40%;
+}
+#header ul{
+  margin-top: 3%;
+}
+
+#navi button{
+  margin-left: 18%;
+}
