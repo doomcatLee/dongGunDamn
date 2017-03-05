@@ -2,28 +2,30 @@
   height: 100vh;
 }
 
+#header{
+  position: absolute;
+}
 #canvas{
   height: 80vh;
+  display: inline;
 }
+
 #canvas h1{
   font-size: 200px;
-  padding-top: 15%;
   padding-left:65%;
+  width:50%;
 }
 #links{
   margin-left:75%;
 }
-
-#header li{
+ li{
   width: 100px;
+  height:300px;
 }
 
 #header li{
   display:inline;
   margin-left: 3%;
-}
-#logo li{
-  margin-right: 40%;
 }
 #header ul{
   margin-top: 3%;
@@ -31,4 +33,16 @@
 
 #navi button{
   margin-left: 18%;
+}
+
+#vic{
+  width: 50%;
+  height: auto;
+  margin-top:15%;
+  margin-bottom: 5%;
+  display:none;
+}
+
+#yes,#navi{
+  display:none;
 }
