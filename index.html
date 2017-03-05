@@ -22,6 +22,9 @@
 </head>
 
 <body>
+  <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 6000)">
+    <source src="audio/openAudio.mp3" type="audio/mp3"/>
+    </audio>
   <section class="container" id="main">
     <!-- HEATHER-->
     <div class="row" id="header">
@@ -60,7 +63,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h1 id="yes">Word up.</h1>
+        <h1 id="yes">You bet.</h1>
       </div>
     </div>
     <!--BUTTONS-->
