@@ -12,6 +12,20 @@ ul#links{
   display: inline;
   margin-left: 5%;
 }
+.fa{
+  padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+.fa:hover{
+  color: #FFBD97;
+  text-decoration: none;
+}
+
 #landing{
   height: 80vh;
 }
