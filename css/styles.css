@@ -68,7 +68,7 @@ div#vic{
   padding-right: 0;
 }
 
-#vic,#buttons,#yes, .type-wrap{
+#vic,#buttons,#yes,.type-wrap, #header{
   display: none;
 }
 
