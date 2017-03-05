@@ -48,12 +48,54 @@ h1#yes{
   margin-top: 5%;
 }
 
-#vic{
-  width: 80%;
-  height: auto;
+.type-wrap{
+  padding-left: 5%;
+  font-family: 'Roboto',sans-serif;
+  margin-top: 15%;
+  color: white;
+  font-size: 4em;
+  border: 1px solid #23c60d;
+  border-radius: 4em;
+  background-color: #23c60d;
+}
+#vic img{
+  width: 40%;
   margin-top: 25%;
+  float: right;
+}
+div#vic{
+  padding-right: 0;
 }
 
 #vic,#buttons,#yes{
   /*display: none;*/
+}
+
+#victor{
+  margin-top:20%;
+  margin-left:-25%;
+}
+
+
+/*TYPED CURSOR BLINK CSS*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
