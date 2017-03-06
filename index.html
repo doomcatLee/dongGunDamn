@@ -11,10 +11,13 @@
   <!--JS CDN-->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!--External custom CSS-->
+  <link rel="stylesheet" href="css/dist/scrolling-nav.css">
   <!--External custom JS-->
-  <script src="js/typed.js"></script>
+  <script src="js/dist/typed.js"></script>
+  <script src="js/dist/scrolling-nav.js"></script>
+  <script src="js/dist/jquery.easing.min.js"></script>
 
-  </script>
   <!--dongGun's shit-->
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/scripts.js"></script>
@@ -22,10 +25,11 @@
 </head>
 
 <body>
-  <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 6000)">
-    <source src="audio/openAudio.mp3" type="audio/mp3"/>
+  <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 5500)"><!--play after a delay-->
+    <!-- THE ROOTS, PROCEED 2 -->
+    <!-- <source src="audio/openAudio.mp3" type="audio/mp3"/> -->
     </audio>
-  <section class="container" id="main">
+  <section class="container" id="page1">
     <!-- HEATHER-->
     <div class="row" id="header">
       <div class="col-md-6">
@@ -40,7 +44,7 @@
             <a href="http://github.com/doomcat9167" target="_blank" class="fa fa-github"></a>
           </li>
           <li>
-            <a href="https://twitter.com/doomcat9167" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/AlexKunLee" target="_blank" class="fa fa-facebook"></a>
           </li>
         </ul>
       </div>
@@ -50,12 +54,12 @@
       <div class="col-md-6">
         <div class="row" id="victor">
           <div class="col-md-4" id="vic">
-            <img src="img/vicFace.png"></img>
+            <img src="img/vic.jpg"></img>
           </div>
           <div class="col-md-8">
             <div class="type-wrap">
               <div id="typed-strings">
-                <p>Yo Lee, you full-stack?</p>
+                <p>Yo Lee, you full-stack yet?</p>
               </div>
               <span id="typed" style="white-space:pre;"></span>
             </div>
@@ -68,36 +72,45 @@
     </div>
     <!--BUTTONS-->
     <div class="row" id="buttons">
-      <button type="button" id="resume" class="btn btn-default">Resume</button>
-      <a href="#about"><button type="button" id="dropDown" class="btn btn-default">Who is you?</button></a>
-      <button type="button" id="something" class="btn btn-default">something</button>
-    </div>
-
-
-  </section>
-  <section class="container" id="about">
-    <h2>About</h2>
-    <div class="content">
-      <h1>Some bs stuff here</h1>
+      <a class="page-scroll" href="#page2"><button type="button" id="dropDown" class="btn btn-default">Who is you?</button></a>
     </div>
   </section>
-  <section class="container" id="projects">
-    <h2>Projects</h2>
-    <div id="CMS">
-      <h2>CMS</h2>
-    </div>
-    <div id="project2">
-      <h2>project2</h2>
+  <!--ABOUT SECTION-->
+  <section class="container" id="page2">
+    <div class="row">
+      <div class="col-md-8" id="aboutContent">
+        <h2>About Alex</h2>
+        <p>My English name is Alex Lee, but my original name, Lee Dong-Gun (이동건) was given to me by a professional name maker in Korea where "Dong" stands for "East", and "Gun" stands for "build". One could interpret this as building a successful business
+          in the East but despite the interpretation of the name, I have immigrated to the West of the west, here in Portland, OR. </p>
+        <p>I enjoy both product management and programming when it comes to development. I consider myself to be extremely competitive and passionate when it comes to things that interests me. As a result, I am always thinking about what product could be
+          successful, and how I could implement it to grow successfully in the market. </p>
+        <p>In my spare time, I like to play and write music. Living without music is to live color blind in this world.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img id="alex" src="img/photo.JPG" alt="photo of Alex Lee, the greatest.">
+      </div>
     </div>
   </section>
-  <section class="container" id="experiences">
-    <h2>Experiences</h2>
-    <div class="resume">
-      <h2>RingCentral</h2>
-      <h2>Assistant Manager</h2>
+  <section class="container" id="page3">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Projects</h2>
+        <div id="CMS">
+          <h3>CMS</h3>
+        </div>
+        <div id="project2">
+          <h3>project2</h3>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Experiences</h2>
+        <div class="resume">
+          <h3>RingCentral</h3>
+          <h3>Assistant Manager</h3> </div>
+      </div>
     </div>
   </section>
-
   <section class="container" id="coolStuff">
     <h2>Cool Stuff here</h2>
 

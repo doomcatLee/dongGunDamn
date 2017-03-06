@@ -3,6 +3,7 @@
   width: 95%;
 }
 
+/* MAIN PAGE */
 #header{
   position: absolute;
   z-index: 10;
@@ -11,6 +12,10 @@
 ul#links{
   margin-top: 3%;
   margin-left: 50%;
+}
+
+h1#logo{
+  font-size: 4em;
 }
 #links li{
   list-style: none;
@@ -30,6 +35,10 @@ ul#links{
   color: #FFBD97;
   text-decoration: none;
 }
+
+.fa:link, .fa:active, .fa:visited{
+  text-decoration: none;
+}
 #landing{
   height: 80vh;
 }
@@ -38,7 +47,7 @@ h1#yes{
   font-size: 11em;
   margin-left: 25%;
   margin-top: 55%;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Roboto', sans-serif;;
 }
 
 #buttons{
@@ -58,14 +67,13 @@ h1#yes{
   border: 1px solid #23c60d;
   border-radius: 4em;
   background-color: #23c60d;
+  width: 100%;
 }
 #vic img{
   width: 40%;
-  margin-top: 25%;
+  margin-top: 20%;
   float: right;
-}
-div#vic{
-  padding-right: 0;
+  border-radius: 50%;
 }
 
 #vic,#buttons,#yes,.type-wrap, #header{
@@ -77,9 +85,10 @@ div#vic{
   margin-left:-25%;
 }
 
+/* END OF MAIN PAGE*/
 
 
-/*TYPED CURSOR BLINK CSS*/
+/* TYPED CURSOR BLINK CSS */
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -100,4 +109,36 @@ div#vic{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+/* END OF CURSOR BLINK CSS*/
+
+
+
+/* ABOUT PAGE */
+
+#page2{
+  background-color: #efeded;
+  width:100%;
+}
+
+#page2 .row{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#alex{
+  width: 80%;
+  border-radius: 50%;
+  margin-left: 15%;
+  margin-top: 35%;
+}
+
+
+#aboutContent h2{
+  margin-bottom: 15%;
+}
+
+#aboutContent p{
+  margin-top: 3%;
+  font-size: 1.7em;
 }
