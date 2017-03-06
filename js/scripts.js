@@ -6,7 +6,7 @@ $(function() {
     $("#header").delay(6700).show('fade', 1500);
     $("#yes").delay(5500).show('fade', 1500);
 
-    $("#buttons").delay(6700).show('fade', 1500);
+    $("#dropDown").delay(6700).show('fade', 1500);
     $("#typed").typed({
         stringsElement: $('#typed-strings'),
         typeSpeed: 50,

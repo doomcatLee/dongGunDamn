@@ -39,6 +39,7 @@ h1#logo{
 .fa:link, .fa:active, .fa:visited{
   text-decoration: none;
 }
+
 #landing{
   height: 80vh;
 }
@@ -48,14 +49,6 @@ h1#yes{
   margin-left: 25%;
   margin-top: 55%;
   font-family: 'Roboto', sans-serif;;
-}
-
-#buttons{
-  text-align: center;
-}
-#buttons button{
-  margin-left: 5%;
-  margin-top: 5%;
 }
 
 .type-wrap{
@@ -76,7 +69,7 @@ h1#yes{
   border-radius: 50%;
 }
 
-#vic,#buttons,#yes,.type-wrap, #header{
+#vic,#yes,#dropDown, .type-wrap, #header{
   display: none;
 }
 
@@ -84,6 +77,20 @@ h1#yes{
   margin-top:20%;
   margin-left:-25%;
 }
+
+#page1 i{
+  font-size: 6em;
+  margin-left: 48%;
+  color: black;
+  opacity: 0.7;
+}
+
+#dropDown{
+  font-size: 7em;
+  margin-left: 48%;
+}
+
+
 
 /* END OF MAIN PAGE*/
 
@@ -143,10 +150,15 @@ h1#yes{
   font-size: 1.7em;
 }
 
-#page2Btn{
+#page2 i{
   margin-top: 10%;
   margin-left: 50%;
 }
+
+#dropDown2{
+  font-size: 7em;
+}
+
 
 
 
