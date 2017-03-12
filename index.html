@@ -1,132 +1,333 @@
 <!DOCTYPE html>
-<html>
+
 
 <head>
-  <!--Google font-->
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Roboto" rel="stylesheet">
-  <!--CSS CDN-->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <!--JS CDN-->
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <!--External custom CSS-->
-  <link rel="stylesheet" href="css/dist/scrolling-nav.css">
-  <!--External custom JS-->
-  <script src="js/dist/typed.js"></script>
-  <script src="js/dist/scrolling-nav.js"></script>
-  <script src="js/dist/jquery.easing.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--dongGun's shit-->
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/scripts.js"></script>
-  <title>dongGun Damn</title>
+  <title>Alex Lee</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/page.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/queries.css" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="js/page.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </head>
 
 <body>
-  <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 5500)"><!--play after a delay-->
-    <!-- THE ROOTS, PROCEED 2 -->
-    <!-- <source src="audio/openAudio.mp3" type="audio/mp3"/> -->
-    </audio>
-  <section class="container" id="page1">
-    <!-- HEATHER-->
-    <div class="row" id="header">
-      <div class="col-md-6">
-        <h1 id="logo"><a href="index.html">Alex Lee</a></h1>
-      </div>
-      <div class="col-md-6">
-        <ul id="links">
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PTCF63');
+  </script>
+
+
+  <div class="overlay">
+    <div id="preloader"></div>
+  </div>
+
+  <div class="overlay-black"></div>
+
+  <a href="index.html" class="logo-body orange"></a>
+
+  <div id="nav-icon1">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+
+
+  <!-- Contenedor -->
+  <ul id="accordion" class="accordion">
+
+    <div id="particles-js"></div>
+
+    <!-- <li class="default open">
+      <div class="link home"><i class="fa fa-paint-brush"></i>Home<i class="fa fa-chevron-down"></i></div>
+      <ul class="submenu">
+        <li data-menuanchor="about"><a href="#about">About</a></li>
+        <li data-menuanchor="culture"><a href="#culture">Culture</a></li>
+        <li data-menuanchor="vishen"><a href="#vishen">Vishen</a></li>
+        <li data-menuanchor="book"><a href="#book">The Book</a></li>
+        <li data-menuanchor="team"><a href="#team">The Team</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="link"><i class="fa fa-code"></i>Businesses<i class="fa fa-chevron-down"></i></div>
+      <ul class="submenu">
+        <li><a href="businesses.html#mva">Mindvalley Academy</a></li>
+        <li><a href="businesses.html#apps">Apps & Platforms</a></li>
+        <li><a href="businesses.html#events">Events</a></li>
+        <li><a href="businesses.html#international">International</a></li>
+        <li><a href="http://evercoach.com" target="_blank">Evercoach</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="link"><i class="fa fa-globe"></i>News<i class="fa fa-chevron-down"></i></div>
+      <ul class="submenu">
+        <li><a href="http://www.mindvalley.com/blog/" target="_blank">Blog</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="link"><i class="fa fa-globe"></i>Careers<i class="fa fa-chevron-down"></i></div>
+      <ul class="submenu">
+        <li><a href="http://careers.mindvalley.com/">Opportunities</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="link"><i class="fa fa-globe"></i>Contact<i class="fa fa-chevron-down"></i></div>
+      <ul class="submenu">
+        <li><a href="contact.html#cs">Customer Support</a></li>
+        <li><a href="contact.html#aff">Affiliate Partnerships</a></li>
+      </ul>
+    </li> -->
+  </ul>
+
+
+  <div class="scroll-sign">
+    Scroll Down
+  </div>
+
+  <div class="middle-nav">
+    <button id="arrow-next">
+            <span>Next</span>
+        </button>
+
+    <button id="arrow-prev">
+            <span>Prev</span>
+        </button>
+  </div>
+
+
+  <div id="core">
+
+    <div class="section">
+
+      <div class="section-img" id="about-section"></div>
+
+      <h1>Welcome to</h1>
+      <h2>Mindvalley</h2>
+
+
+      <div class="decsription-short-text">
+        <p>We design learning experiences and publish teachings by the best authors in transformational education for 3 million students worldwide.
+        </p>
+        <ul class="social">
+          <li style="cursor:default">Follow Us:</li>
           <li>
-            <a href="https://www.linkedin.com/in/iamalexleee/" target="_blank" class="fa fa-linkedin"></a>
+            <a href='https://www.facebook.com/mindvalley' target="_blank" id="fb"></a>
           </li>
           <li>
-            <a href="http://github.com/doomcat9167" target="_blank" class="fa fa-github"></a>
+            <a href='https://twitter.com/mindvalley' target="_blank" id="twitter"></a>
           </li>
           <li>
-            <a href="https://www.facebook.com/AlexKunLee" target="_blank" class="fa fa-facebook"></a>
+            <a href='https://www.instagram.com/mindvalley' target="_blank" id="insta"></a>
+          </li>
+          <li>
+            <a href='https://www.youtube.com/user/mindvalley' target="_blank" id="youtube"></a>
           </li>
         </ul>
       </div>
-    </div>
-    <!--LANDING-->
-    <div class="row" id="landing">
-      <div class="col-md-6">
-        <div class="row" id="victor">
-          <div class="col-md-4" id="vic">
-            <img src="img/vic.jpg"></img>
-          </div>
-          <div class="col-md-8">
-            <div class="type-wrap">
-              <div id="typed-strings">
-                <p>Yo Lee, you full-stack yet?</p>
-              </div>
-              <span id="typed" style="white-space:pre;"></span>
-            </div>
-          </div>
+
+      <div class="explore-block">
+        <div class="CoverSubtitle-line" style="background-color:#ffce00;"></div>
+        <div class="CoverTitles-cta">
+          <a href="http://www.mindvalley.com/about.html" class="CoverTitles-cta-text">Learn More</a>
         </div>
+        <a href="http://www.mindvalley.com/about.html">
+          <div class="arrow-explore"></div>
+        </a>
       </div>
-      <div class="col-md-6">
-        <h1 id="yes">You bet.</h1>
-      </div>
+
+      <video autoplay loop muted class="video" poster="/imgs/slides/pstr.jpg">
+			<source src="imgs/slides/intro.mp4" type="video/mp4">
+            <source src="imgs/slides/intro.webm" type="video/webm">
+            <source src="imgs/slides/intro.ogv" type="video/ogv">
+		</video>
+
     </div>
-    <!--BUTTONS-->
 
-    <a class="page-scroll fa fa-chevron-circle-down" href="#page2" id="dropDown"></a>
 
-  </section>
-  <!--ABOUT SECTION-->
-  <section class="container" id="page2">
-    <div class="row">
-      <div class="col-md-8" id="aboutContent">
-        <h2>About Alex</h2>
-        <p>My English name is Alex Lee, but my original name, Lee Dong-Gun (이동건) was given to me by a professional name maker in Korea where "Dong" stands for "East", and "Gun" stands for "build". One could interpret this as building a successful business
-          in the East but despite the interpretation of the name, I have immigrated to the West of the west, here in Portland, OR. </p>
-        <p>I enjoy both product management and programming when it comes to development. I consider myself to be extremely competitive and passionate when it comes to things that interests me. As a result, I am always thinking about what product could be
-          successful, and how I could implement it to grow successfully in the market. </p>
-        <p>In my spare time, I like to play and write music. Living without music is to live color blind in this world.
+
+    <div class="section">
+
+      <div class="section-img" id="culture-section"></div>
+
+      <h1>Invest in</h1>
+      <h2>Happy</h2>
+
+      <div class="decsription-short-text">
+        <p>Our best products are our employees – discover how our multi award-winning company culture drives our productivity and our growth.
         </p>
+        <ul class="social">
+          <li style="cursor:default">Follow Us:</li>
+          <li>
+            <a href='https://www.facebook.com/mindvalley' target="_blank" id="fb"></a>
+          </li>
+          <li>
+            <a href='https://twitter.com/mindvalley' target="_blank" id="twitter"></a>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/mindvalley' target="_blank" id="insta"></a>
+          </li>
+          <li>
+            <a href='https://www.youtube.com/user/mindvalley' target="_blank" id="youtube"></a>
+          </li>
+        </ul>
       </div>
-      <div class="col-md-4">
-        <img id="alex" src="img/photo.JPG" alt="photo of Alex Lee, the greatest.">
-      </div>
-      <a class="page-scroll" href="#page3"><i class="fa fa-chevron-circle-down" id="dropDown2"></i></a>
-    </div>
-  </section>
-  <section class="container" id="page3">
-    <div class="row">
-      <div class="col-md-6">
-        <h1>Projects</h1>
-        <div id="project">
-          <h2>Blossom, Content Management System</h2>
-          <p>Blossom CMS allows non-technical users/businesses to create and publish elegant websites within minutes.</p>
-        </div>
-        <div id="project">
-          <h2>FindEnemy, Product Management Software</h2>
-          <p>FindEnemy organizes the market segment of user's research. </p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h1>Experiences</h1>
-        <div class="resume">
-          <h1>Platform Product Management Intern</h1>
-          <h2>RingCentral, Jun 2016 - Aug 2016 * San Fransisco</h2>
-          <p>Conducted market research and generated product requirements for RingCentral APIs and Glip chat APIs. Wireframed webhooks interface then presented to directors and engineers.</p>
-        </div>
-        <div class="resume">
-          <h1>Assistant Manager</h1>
-          <h2>Big Apple Market, Aug 2010 - Sep 2012 * Sandy, OR</h2>
-          <p>Recruited, trained and maintained employees. Regulated all merchandise, changed the price depending on various market factors. Ensured all hardware and software were working and up to date. </p>
-        </div>
-      </div>
-      <a class="page-scroll" href="#page4"><i class="fa fa-chevron-circle-down" id="dropDown3"></i></a>
-    </div>
-  </section>
-  <section class="container" id="page4">
-    <h2>Cool Stuff here</h2>
 
-  </section>
+      <div class="explore-block">
+        <div class="CoverSubtitle-line" style="background-color:#ffce00;"></div>
+        <div class="CoverTitles-cta">
+          <a href="http://www.mindvalley.com/culture.html" class="CoverTitles-cta-text">Learn More</a>
+        </div>
+        <a href="http://www.mindvalley.com/culture.html">
+          <div class="arrow-explore"></div>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="section">
+
+      <div class="section-img" id="vishen-section"></div>
+
+      <h1>Meet</h1>
+      <h2>Vishen</h2>
+
+      <div class="decsription-short-text">
+        <p>Get to know the CEO and Founder of Mindvalley.
+        </p>
+        <ul class="social">
+          <li style="cursor:default">Follow Us:</li>
+          <li>
+            <a href='https://www.facebook.com/mindvalley' target="_blank" id="fb"></a>
+          </li>
+          <li>
+            <a href='https://twitter.com/mindvalley' target="_blank" id="twitter"></a>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/mindvalley' target="_blank" id="insta"></a>
+          </li>
+          <li>
+            <a href='https://www.youtube.com/user/mindvalley' target="_blank" id="youtube"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="explore-block">
+        <div class="CoverSubtitle-line" style="background-color:#ffce00;"></div>
+        <div class="CoverTitles-cta">
+          <a href="http://www.mindvalley.com/vishen.html" class="CoverTitles-cta-text">Learn More</a>
+        </div>
+        <a href="http://www.mindvalley.com/vishen.html">
+          <div class="arrow-explore"></div>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="section">
+
+      <div class="section-img" id="book-section"></div>
+
+      <h1>Discover</h1>
+      <h2>The Book</h2>
+
+      <div class="decsription-short-text">
+        <p>A book that teaches you to question your reality and redefine life and success on your own terms.
+        </p>
+        <ul class="social">
+          <li style="cursor:default">Follow Us:</li>
+          <li>
+            <a href='https://www.facebook.com/mindvalley' target="_blank" id="fb"></a>
+          </li>
+          <li>
+            <a href='https://twitter.com/mindvalley' target="_blank" id="twitter"></a>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/mindvalley' target="_blank" id="insta"></a>
+          </li>
+          <li>
+            <a href='https://www.youtube.com/user/mindvalley' target="_blank" id="youtube"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="explore-block">
+        <div class="CoverSubtitle-line" style="background-color:#ffce00;"></div>
+        <div class="CoverTitles-cta">
+          <a href="http://www.mindvalley.com/book.html" class="CoverTitles-cta-text">Learn More</a>
+        </div>
+        <a href="http://www.mindvalley.com/book.html">
+          <div class="arrow-explore"></div>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="section">
+
+      <div class="section-img" id="team-section"></div>
+
+      <h1>40 Nationalities</h1>
+      <h2>1 Mission</h2>
+
+      <div class="decsription-short-text">
+        <p>Our unique recruitment policy has resulted in a diverse and international tribe, collectively dedicated to hacking education worldwide.
+        </p>
+        <ul class="social">
+          <li style="cursor:default">Follow Us:</li>
+          <li>
+            <a href='https://www.facebook.com/mindvalley' target="_blank" id="fb"></a>
+          </li>
+          <li>
+            <a href='https://twitter.com/mindvalley' target="_blank" id="twitter"></a>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/mindvalley' target="_blank" id="insta"></a>
+          </li>
+          <li>
+            <a href='https://www.youtube.com/user/mindvalley' target="_blank" id="youtube"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="explore-block">
+        <div class="CoverSubtitle-line" style="background-color:#ffce00;"></div>
+        <div class="CoverTitles-cta">
+          <a href="http://www.mindvalley.com/team.html" class="CoverTitles-cta-text">Learn More</a>
+        </div>
+        <a href="http://www.mindvalley.com/team.html">
+          <div class="arrow-explore"></div>
+        </a>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
 
 </body>
 
 </html>
+<!-- Localized -->
