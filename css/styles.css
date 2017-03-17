@@ -125,7 +125,7 @@ h1#yes{
 /* ABOUT PAGE */
 
 #page2{
-  background-color: #efeded;
+  background-color: #000000;
   width:100%;
 }
 
@@ -148,6 +148,7 @@ h1#yes{
 #aboutContent p{
   margin-top: 3%;
   font-size: 1.7em;
+  color: #ffffff;
 }
 
 #page2 i{
@@ -159,6 +160,13 @@ h1#yes{
   font-size: 7em;
 }
 
+/*Particle Js*/
+
+.particles-js-canvas-el{
+  margin-top:12%;
+  width: 100%;
+
+}
 
 
 
