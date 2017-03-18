@@ -1,5 +1,10 @@
 h1,h2,h3,h4,h5,h6 {
 }
+
+.row-nav{
+  border: 1px solid #000;
+  height: 50px;
+}
 .row-nav li{
     list-style-type: none;
     display: inline-block;
@@ -13,25 +18,31 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .row-victor{
-  margin-left: 70%;
-  margin-top: 5%;
+  border: 1px solid #000;
+  height: 30%;
+
+
 }
 .row-niggaLee{
-  margin-right: 60%;
-  margin-top: 20%;
+  margin-top: 5%;
+  height: 30%;
+  border: 1px solid #000;
+}
+
+.row-button{
+  margin-top:20%;
+  text-align: center;
+  border: 1px solid #000;
 }
 
 #vic{
-  margin-bottom: 50%;
-  width: 20%;
+  width: 10%;
   border-radius: 100%;
-  float:right;
 }
 
 #niggaLee{
-  width: 40%;
+  width: 16%;
   border-radius: 100%;
-  float:left;
 }
 
 
@@ -106,13 +117,6 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 7em;
 }
 
-/*Particle Js*/
-
-.particles-js-canvas-el{
-  margin-top:12%;
-  width: 100%;
-
-}
 
 
 
