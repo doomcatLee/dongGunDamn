@@ -1,12 +1,10 @@
 h1,h2,h3,h4,h5,h6 {
 }
 .row-nav li{
-    list-style: none;
-    display: inline;
-    text-align: center;
+    list-style-type: none;
+    display: inline-block;
 
 }
-
 
 
 .container{
@@ -15,15 +13,27 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .row-victor{
-  width: 20%;
   margin-left: 70%;
+  margin-top: 5%;
+}
+.row-niggaLee{
+  margin-right: 60%;
+  margin-top: 20%;
 }
 
+#vic{
+  margin-bottom: 50%;
+  width: 20%;
+  border-radius: 100%;
+  float:right;
+}
 
 #niggaLee{
-  width:20%;
-  margin-right: 60%;
+  width: 40%;
+  border-radius: 100%;
+  float:left;
 }
+
 
 
 
