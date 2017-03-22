@@ -1,10 +1,6 @@
 h1,h2,h3,h4,h5,h6 {
 }
 
-.row-nav{
-  border: 1px solid #000;
-  height: 50px;
-}
 .row-nav li{
     list-style-type: none;
     display: inline-block;
@@ -16,22 +12,28 @@ h1,h2,h3,h4,h5,h6 {
   height: 100vh;
   width: 95%;
 }
+/* ROW NAV */
+.row-nav{
+  border: 1px solid #000;
+  height: 16%;
+}
 
+/* ROW VIC */
 .row-victor{
   border: 1px solid #000;
-  height: 30%;
-
-
+  height: 34%;
 }
+
+/* ROW ME */
 .row-niggaLee{
-  margin-top: 5%;
-  height: 30%;
+  height: 34%;
   border: 1px solid #000;
 }
 
+/* ROW BTN */
 .row-button{
-  margin-top:20%;
   text-align: center;
+  height: 16%;
   border: 1px solid #000;
 }
 
