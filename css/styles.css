@@ -1,11 +1,18 @@
 h1,h2,h3,h4,h5,h6 {
 }
 
+
 body{
   background-image: url("../img/iphone.png");
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
+.row-nav, .row-victor, .row-niggaLee, .row-button{
+  display: none;
+}
+
 
 #textBox1{
   position: absolute;
@@ -19,7 +26,7 @@ body{
 #textBox2{
   position: absolute;
   margin-top: 1%;
-  margin-left: 0;
+  margin-left: -8%;
   z-index: -1;
   border-radius: 0;
   width: 47%;
@@ -37,14 +44,17 @@ body{
 }
 
 .row-nav{
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
   height: 16%;
+  position: absolute;
+  left: 43%;
 }
 
 /* ROW VIC */
 .row-victor{
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
   height: 34%;
+  padding-top: 30%;
 }
 
 .row-victor img{
@@ -59,8 +69,9 @@ body{
 
 /* ROW ME */
 .row-niggaLee{
+  margin-top: 20%;
   height: 34%;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
 }
 
 .row-niggaLee img{
@@ -70,7 +81,6 @@ body{
 }
 
 #typedLee{
-  margin-left: 8%;
 
 }
 
@@ -79,7 +89,7 @@ body{
 .row-button{
   text-align: center;
   height: 16%;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
   font-size: 4em;
 }
 
