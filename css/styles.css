@@ -1,20 +1,39 @@
 h1,h2,h3,h4,h5,h6 {
 }
 
-.row-nav li{
-    list-style-type: none;
-    display: inline-block;
-
+.col-md-9{
+  border: 1px solid #000;
 }
 
-.col-md-3{
-    border: 1px solid #000;
+#textBox1{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 10%;
+  z-index: -1;
+  border-radius: 0;
+  width: 90%;
 }
+
+#textBox2{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 0;
+  z-index: -1;
+  border-radius: 0;
+  width: 47%;
+}
+
 .container{
   height: 100vh;
   width: 95%;
 }
 /* ROW NAV */
+.center-pills{
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
+
 .row-nav{
   border: 1px solid #000;
   height: 16%;
@@ -32,7 +51,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #typedVic{
-  margin-left: 20%;
+  margin-left: 16%;
+  color: white;
 }
 
 /* ROW ME */
@@ -48,7 +68,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #typedLee{
-  margin-left: 5%;
+  margin-left: 8%;
 
 }
 
@@ -58,6 +78,7 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
   height: 16%;
   border: 1px solid #000;
+  font-size: 4em;
 }
 
 /* Typed JS*/
@@ -72,6 +93,7 @@ h1,h2,h3,h4,h5,h6 {
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+    color:white;
 }
 @keyframes blink{
     0% { opacity:1; }
