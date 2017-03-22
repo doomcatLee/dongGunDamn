@@ -3,18 +3,18 @@ $(function() {
     //delay load four items
 
 
-    $("#typed").typed({
-        stringsElement: $('#typed-strings'),
+    $("#typedLee").typed({
+        stringsElement: $('#typed-Lee'),
         typeSpeed: 50,
         backDelay: 500,
-        startDelay: 2300,
+        startDelay: 5500,
         contentType: 'html'
     }); //typed.js
-    $("#typedLee").typed({
-        stringsElement: $('#typed-stringsLee'),
+    $("#typedVic").typed({
+        stringsElement: $('#typed-Vic'),
         typeSpeed: 50,
         backDelay: 500,
-        startDelay: 2300,
+        startDelay: 2000,
         contentType: 'html'
     }); //typed.js
 
