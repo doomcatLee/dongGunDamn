@@ -130,7 +130,7 @@ body{
 /* ABOUT PAGE */
 
 #page2{
-  background-color: #000000;
+  background-color: white;
   width:100%;
 }
 
@@ -138,34 +138,29 @@ body{
   padding-left: 3%;
   padding-right: 3%;
 }
-#alex{
-  width: 80%;
-  border-radius: 50%;
-  margin-left: 15%;
-  margin-top: 35%;
+
+.row-photo{
+  border: 1px solid black;
+  height: 50vh;
+}
+
+.row-description{
+  border: 1px solid black;
+  height: 50vh;
 }
 
 
-#aboutContent h2{
-  margin-bottom: 15%;
-}
+.row-photo img{
+  width: 20%;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-#aboutContent p{
-  margin-top: 3%;
-  font-size: 1.7em;
-  color: #ffffff;
-}
-
-#page2 i{
-  margin-top: 10%;
-  margin-left: 50%;
-}
-
-#dropDown2{
-  font-size: 7em;
 }
 
 
+.
 
 
 
